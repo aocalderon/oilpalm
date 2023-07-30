@@ -1,0 +1,669 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gmd:MD_Metadata xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:srv="http://www.isotc211.org/2005/srv" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:geonet="http://www.fao.org/geonetwork" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmd/gmd.xsd http://www.isotc211.org/2005/srv http://schemas.opengis.net/iso/19139/20060504/srv/srv.xsd">
+  <gmd:fileIdentifier>
+    <gco:CharacterString>e163c712-193e-4cb8-8dfa-567055ad7ca6</gco:CharacterString>
+  </gmd:fileIdentifier>
+  <gmd:language>
+    <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="spa" codeSpace="ISO639-2" />
+  </gmd:language>
+  <gmd:characterSet>
+    <gmd:MD_CharacterSetCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8" codeSpace="ISOTC211/19115" />
+  </gmd:characterSet>
+  <gmd:hierarchyLevel>
+    <gmd:MD_ScopeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset" codeSpace="ISOTC211/19115" />
+  </gmd:hierarchyLevel>
+  <gmd:hierarchyLevelName>
+    <gco:CharacterString>dataset</gco:CharacterString>
+  </gmd:hierarchyLevelName>
+  <gmd:contact>
+    <gmd:CI_ResponsibleParty>
+      <gmd:individualName>
+        <gco:CharacterString>atencionalusuario</gco:CharacterString>
+      </gmd:individualName>
+      <gmd:organisationName>
+        <gco:CharacterString>Unidad de Planificación Rural Agropecuaria - UPRA</gco:CharacterString>
+      </gmd:organisationName>
+      <gmd:contactInfo>
+        <gmd:CI_Contact>
+          <gmd:address>
+            <gmd:CI_Address>
+              <gmd:deliveryPoint>
+                <gco:CharacterString>Calle 28 No. 13-22 Torre C, piso 3. Edificio Palma Real.</gco:CharacterString>
+              </gmd:deliveryPoint>
+              <gmd:city>
+                <gco:CharacterString>Bogota D.C.</gco:CharacterString>
+              </gmd:city>
+              <gmd:administrativeArea>
+                <gco:CharacterString>Cundinamarca</gco:CharacterString>
+              </gmd:administrativeArea>
+              <gmd:postalCode>
+                <gco:CharacterString>110311</gco:CharacterString>
+              </gmd:postalCode>
+              <gmd:electronicMailAddress>
+                <gco:CharacterString>atencionalusuario</gco:CharacterString>
+              </gmd:electronicMailAddress>
+            </gmd:CI_Address>
+          </gmd:address>
+          <gmd:hoursOfService>
+            <gco:CharacterString>8:00 - 17:00</gco:CharacterString>
+          </gmd:hoursOfService>
+        </gmd:CI_Contact>
+      </gmd:contactInfo>
+      <gmd:role>
+        <gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact" codeSpace="ISOTC211/19115" />
+      </gmd:role>
+    </gmd:CI_ResponsibleParty>
+  </gmd:contact>
+  <gmd:dateStamp>
+    <gco:DateTime>2023-07-19T12:32:16</gco:DateTime>
+  </gmd:dateStamp>
+  <gmd:metadataStandardName>
+    <gco:CharacterString>ISO 19139 Geographic Information - Metadata - Implementation Specification</gco:CharacterString>
+  </gmd:metadataStandardName>
+  <gmd:metadataStandardVersion>
+    <gco:CharacterString>2007</gco:CharacterString>
+  </gmd:metadataStandardVersion>
+  <gmd:spatialRepresentationInfo>
+    <gmd:MD_VectorSpatialRepresentation>
+      <gmd:topologyLevel>
+        <gmd:MD_TopologyLevelCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_TopologyLevelCode" codeListValue="geometryOnly" codeSpace="ISOTC211/19115" />
+      </gmd:topologyLevel>
+      <gmd:geometricObjects>
+        <gmd:MD_GeometricObjects>
+          <gmd:geometricObjectType>
+            <gmd:MD_GeometricObjectTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_GeometricObjectTypeCode" codeListValue="composite" codeSpace="ISOTC211/19115" />
+          </gmd:geometricObjectType>
+          <gmd:geometricObjectCount>
+            <gco:Integer>60078</gco:Integer>
+          </gmd:geometricObjectCount>
+        </gmd:MD_GeometricObjects>
+      </gmd:geometricObjects>
+    </gmd:MD_VectorSpatialRepresentation>
+  </gmd:spatialRepresentationInfo>
+  <gmd:referenceSystemInfo>
+    <gmd:MD_ReferenceSystem>
+      <gmd:referenceSystemIdentifier>
+        <gmd:RS_Identifier>
+          <gmd:code>
+            <gco:CharacterString>3116</gco:CharacterString>
+          </gmd:code>
+          <gmd:codeSpace>
+            <gco:CharacterString>EPSG</gco:CharacterString>
+          </gmd:codeSpace>
+          <gmd:version>
+            <gco:CharacterString>8.2.6</gco:CharacterString>
+          </gmd:version>
+        </gmd:RS_Identifier>
+      </gmd:referenceSystemIdentifier>
+    </gmd:MD_ReferenceSystem>
+  </gmd:referenceSystemInfo>
+  <gmd:identificationInfo>
+    <gmd:MD_DataIdentification>
+      <gmd:citation>
+        <gmd:CI_Citation>
+          <gmd:title>
+            <gco:CharacterString>Zonificación de aptitud para el cultivo comercial de palma de aceite en Colombia, escala 1:100.000. Agosto 2018.</gco:CharacterString>
+          </gmd:title>
+          <gmd:date>
+            <gmd:CI_Date>
+              <gmd:date>
+                <gco:Date>2018-07-19</gco:Date>
+              </gmd:date>
+              <gmd:dateType>
+                <gmd:CI_DateTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication" codeSpace="ISOTC211/19115" />
+              </gmd:dateType>
+            </gmd:CI_Date>
+          </gmd:date>
+          <gmd:date>
+            <gmd:CI_Date>
+              <gmd:date>
+                <gco:Date>2016-11-25</gco:Date>
+              </gmd:date>
+              <gmd:dateType>
+                <gmd:CI_DateTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_DateTypeCode" codeListValue="creation" codeSpace="ISOTC211/19115" />
+              </gmd:dateType>
+            </gmd:CI_Date>
+          </gmd:date>
+          <gmd:citedResponsibleParty>
+            <gmd:CI_ResponsibleParty>
+              <gmd:individualName>
+                <gco:CharacterString>Unidad de Planificación Rural Agropecuaria - UPRA</gco:CharacterString>
+              </gmd:individualName>
+              <gmd:organisationName>
+                <gco:CharacterString>Unidad de Planificación Rural Agropecuaria - UPRA</gco:CharacterString>
+              </gmd:organisationName>
+              <gmd:contactInfo>
+                <gmd:CI_Contact>
+                  <gmd:phone>
+                    <gmd:CI_Telephone>
+                      <gmd:voice>
+                        <gco:CharacterString>(571) 552 9820</gco:CharacterString>
+                      </gmd:voice>
+                    </gmd:CI_Telephone>
+                  </gmd:phone>
+                  <gmd:address>
+                    <gmd:CI_Address>
+                      <gmd:deliveryPoint>
+                        <gco:CharacterString>Calle 28 No. 13-22 Torre C, piso 3. Edificio Palma Real</gco:CharacterString>
+                      </gmd:deliveryPoint>
+                      <gmd:city>
+                        <gco:CharacterString>Bogotá D.C.</gco:CharacterString>
+                      </gmd:city>
+                      <gmd:administrativeArea>
+                        <gco:CharacterString>Bogotá D.C.</gco:CharacterString>
+                      </gmd:administrativeArea>
+                      <gmd:postalCode>
+                        <gco:CharacterString>110311</gco:CharacterString>
+                      </gmd:postalCode>
+                      <gmd:country>
+                        <gmd:Country codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#Country" codeSpace="ISO3166-1" />
+                      </gmd:country>
+                      <gmd:electronicMailAddress>
+                        <gco:CharacterString>atencionalusuario@upra.gov.co</gco:CharacterString>
+                      </gmd:electronicMailAddress>
+                    </gmd:CI_Address>
+                  </gmd:address>
+                  <gmd:hoursOfService>
+                    <gco:CharacterString>8:00 - 17:00</gco:CharacterString>
+                  </gmd:hoursOfService>
+                </gmd:CI_Contact>
+              </gmd:contactInfo>
+              <gmd:role>
+                <gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_RoleCode" codeListValue="author" codeSpace="ISOTC211/19115" />
+              </gmd:role>
+            </gmd:CI_ResponsibleParty>
+          </gmd:citedResponsibleParty>
+          <gmd:citedResponsibleParty>
+            <gmd:CI_ResponsibleParty>
+              <gmd:individualName>
+                <gco:CharacterString>atencionalusuario@upra.gov.co</gco:CharacterString>
+              </gmd:individualName>
+              <gmd:organisationName>
+                <gco:CharacterString>Unidad de Planificación Rural Agropecuaria - UPRA</gco:CharacterString>
+              </gmd:organisationName>
+              <gmd:contactInfo>
+                <gmd:CI_Contact>
+                  <gmd:phone>
+                    <gmd:CI_Telephone>
+                      <gmd:voice>
+                        <gco:CharacterString>(571) 552 9820</gco:CharacterString>
+                      </gmd:voice>
+                    </gmd:CI_Telephone>
+                  </gmd:phone>
+                  <gmd:address>
+                    <gmd:CI_Address>
+                      <gmd:deliveryPoint>
+                        <gco:CharacterString>Calle 28 No. 13-22 Torre C, piso 3. Edificio Palma Real</gco:CharacterString>
+                      </gmd:deliveryPoint>
+                      <gmd:city>
+                        <gco:CharacterString>Bogotá D.C.</gco:CharacterString>
+                      </gmd:city>
+                      <gmd:administrativeArea>
+                        <gco:CharacterString>Bogotá D.C.</gco:CharacterString>
+                      </gmd:administrativeArea>
+                      <gmd:postalCode>
+                        <gco:CharacterString>110311</gco:CharacterString>
+                      </gmd:postalCode>
+                      <gmd:country>
+                        <gco:CharacterString>Colombia</gco:CharacterString>
+                      </gmd:country>
+                      <gmd:electronicMailAddress>
+                        <gco:CharacterString>atencionalusuario@upra.gov.co</gco:CharacterString>
+                      </gmd:electronicMailAddress>
+                    </gmd:CI_Address>
+                  </gmd:address>
+                </gmd:CI_Contact>
+              </gmd:contactInfo>
+              <gmd:role>
+                <gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact" />
+              </gmd:role>
+            </gmd:CI_ResponsibleParty>
+          </gmd:citedResponsibleParty>
+          <gmd:citedResponsibleParty>
+            <gmd:CI_ResponsibleParty>
+              <gmd:individualName>
+                <gco:CharacterString>Cenipalma</gco:CharacterString>
+              </gmd:individualName>
+              <gmd:organisationName>
+                <gco:CharacterString>Cenipalma</gco:CharacterString>
+              </gmd:organisationName>
+              <gmd:role>
+                <gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_RoleCode" codeListValue="author" />
+              </gmd:role>
+            </gmd:CI_ResponsibleParty>
+          </gmd:citedResponsibleParty>
+          <gmd:citedResponsibleParty>
+            <gmd:CI_ResponsibleParty>
+              <gmd:individualName>
+                <gco:CharacterString>Fedepalma</gco:CharacterString>
+              </gmd:individualName>
+              <gmd:organisationName>
+                <gco:CharacterString>Fedepalma</gco:CharacterString>
+              </gmd:organisationName>
+              <gmd:contactInfo>
+                <gmd:CI_Contact>
+                  <gmd:address>
+                    <gmd:CI_Address>
+                      <gmd:electronicMailAddress>
+                        <gco:CharacterString>info@fedepalma.org</gco:CharacterString>
+                      </gmd:electronicMailAddress>
+                    </gmd:CI_Address>
+                  </gmd:address>
+                </gmd:CI_Contact>
+              </gmd:contactInfo>
+              <gmd:role>
+                <gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_RoleCode" codeListValue="author" />
+              </gmd:role>
+            </gmd:CI_ResponsibleParty>
+          </gmd:citedResponsibleParty>
+          <gmd:presentationForm>
+            <gmd:CI_PresentationFormCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_PresentationFormCode" codeListValue="mapDigital" codeSpace="ISOTC211/19115" />
+          </gmd:presentationForm>
+        </gmd:CI_Citation>
+      </gmd:citation>
+      <gmd:abstract>
+        <gco:CharacterString>El mapa de aptitud para el cultivo comercial de palma de aceite es un producto resultante de la aplicación de la metodología de zonificación de aptitud para cultivos comerciales, descrita en el documento: "Cultivo comercial de palma de aceite. Identificación de zonas aptas en colombia, a escala 1:100.000".
+Categorías:
+Aptitud Alta: Zonas con las mejores condiciones desde el punto de vista físico, socioecosistémico y socioeconómico.
+Aptitud Media: Zonas con limitaciones moderadas de tipo físico, socioecosistémico y/o socioeconómico.
+Aptitud Baja: Zonas con fuertes limitaciones de tipo físico, socioecosistémico y/o socioeconómico, las cuales podrían adecuarse con grandes inversiones y/o el desarrollo de nuevas tecnologías.
+Aptitud Muy Baja: Zonas con fuertes limitaciones  de tipo físico, socioeconómico y/o socioecosistémico, cuyos desarrollos y adecuaciones pueden ser permitidas, restringidas o prohibidas por la ley o normas reglamentarias, debido a sus condiciones agroambientales.
+No Apta: Zonas con restricciones físicas y socioecosistémicas que imposibilitan el desarrollo de la actividad.
+Exclusiones legales: Zonas en las cuales, por mandato legal, no se permite el desarrollo del cultivo comercial de palma de aceite.</gco:CharacterString>
+      </gmd:abstract>
+      <gmd:purpose>
+        <gco:CharacterString>La zonificación de aptitud del cultivo comercial de palma de aceite a escala 1:100.000, tiene por finalidad constituirse en una herramienta de consulta y de carácter indicativo que permita identificar las zonas con aptitud para el establecimiento y desarrollo del cultivo, de forma que se contribuya a orientar las políticas para el desarrollo del sector palmero, bajo condiciones de sostenibilidad, competitividad y productividad.</gco:CharacterString>
+      </gmd:purpose>
+      <gmd:credit>
+        <gco:CharacterString>Agencia Nacional de Hidrocarburos (ANH). (2014). Pozos en producción.
+Agencia Nacional de Tierras (ANT). (2016). Comunidades negras.
+Agencia Nacional de Tierras (ANT). (2016). Resguardos indígenas.
+Agencia Nacional de Tierras (ANT). (2016). Territorios colectivos en proceso de titulación de comunidades negras: Ley 70 de 1993.
+Alcaldía de Medellín. (2014). Base de datos de información catastral.
+Alcaldía Santiago de Cali (2014). Base predial rural.
+Catastro Distrital Bogotá (2014). Información predial jurídica, física y económica.
+Corporación Centro de Investigación en Palma de Aceite (Cenipalma). (2015). Organizaciones gremiales.                                    
+Corporación Colombiana de Investigación Agropecuaria (Corpoica). (2014). Centros Corpoica.
+Corporación para el desarrollo sostenible del área de manejo especial de la Macarena (CORMACARENA). (Agosto de 2015, fecha de entrega), AMEM -Parque y DMI. 
+Departamento Administrativo Nacional de Estadística (DANE). (2005). Censo general de población: años promedio de escolaridad por municipio.
+Departamento Administrativo Nacional de Estadística (DANE). (2007). Estimaciones y proyecciones de población, 1985-2020.
+Departamento Administrativo Nacional de Estadística (DANE). (2007). Proyecciones de población municipal por grupos quinquenales de edad 2005-2020.
+Departamento Administrativo Nacional de Estadística (DANE). (2007). Series de población 1985-2020.
+Departamento Administrativo Nacional de Estadística (DANE). (2013). PIB Municipal por actividad 2013. Cálculos propios para municipios PIB sin hidrocarburos y minería.
+Departamento Nacional de Planeación (DNP). (2010). Cifras IPM por municipio y departamento 2005: incidencias y privaciones.
+Departamento Nacional de Planeación (DNP). (2013). Resultados de desempeño fiscal de los departamentos y municipios de la vigencia 2013.
+Departamento Nacional de Planeación (DNP). (2015). Cálculos IPM con datos del Censo General 2005. Subdirección de Promoción Social y Calidad de Vida.
+Dirección para la Acción Integral Contra Minas Antipersonal (sic) (DAICMA). (2015). Eventos minas antipersonal en Colombia (sic).
+Dirección para la Acción Integral Contra Minas Antipersonal (sic) (DAICMA). (2015). Eventos minas antipersonal en Colombia (sic).
+Federación Nacional de Cultivadores de Palma de Aceite (Fedepalma).  (2015). Municipios donde CENIPALMA tiene presencia institucional.  
+Federación Nacional de Cultivadores de Palma de Aceite (Fedepalma). (2015). Organizaciones gremiales.
+Federación Nacional de Cultivadores de Palma de Aceite (Fedepalma). (2015). Ubicación plantas extractoras de palma de aceite.
+Gobernación de Antioquia. (2014). Predial Rural Antioquia.
+Instituto Alexander von Humboldt (IAvH) y Agencia Nacional de Hidrocarburos (ANH). (2008). Áreas prioritarias para la conservación, escala 1:250.000. Bogotá: IAvH y ANH.
+Instituto Alexander von Humboldt (IAvH). (2014). Bosque seco tropical. Escala 1:100.000
+Instituto Alexander von Humboldt (IAvH). (2015). Áreas importantes para la conservación de las aves, escala 1:100.000.
+Instituto Alexander von Humboldt (IAvH). (2017). Actualización de los límites cartográficos de los complejos de páramos de Colombia, escala 1:100.000.
+Instituto Colombiano Agropecuario (ICA). (2014). Directorio por seccionales.
+Instituto Colombiano de Antropología e Historia (ICANH). (2016). Áreas arqueológicas protegidas.
+Instituto Colombiano de Antropología e Historia (ICANH). (2016). Parques arqueológicos.
+Instituto Colombiano de Desarrollo Rural (Incoder). (2007). Distritos de riego a 2007.
+Instituto de Hidrología, Meteorología y Estudios Ambientales (Ideam). (2007). Mapa nacional de ecosistemas escala 1:100.000.
+Instituto de Hidrología, Meteorología y Estudios Ambientales (Ideam). (2009). Mapa nacional de zonificación de riesgo a incendios de la cobertura vegetal. Escala: 1:500.000.
+Instituto de Hidrología, Meteorología y Estudios Ambientales (Ideam). (2010). Estudio Nacional del Agua: capa de subzonas hidrográficas, escala 1:100.000.
+Instituto de Hidrología, Meteorología y Estudios Ambientales (Ideam). (2010). Zonificación de la susceptibilidad general del terreno a los deslizamientos de tierra.
+Instituto de Hidrología, Meteorología y Estudios Ambientales (Ideam). (2011). Mapa de cambios en los contenidos de biomasa, escala 1:500.000.
+Instituto de Hidrología, Meteorología y Estudios Ambientales (Ideam). (2012). Mapa nacional de cobertura de la tierra, imágenes 2005-2009, escala 1:100.000, versión 1.0.
+Instituto de Hidrología, Meteorología y Estudios Ambientales (Ideam). (2014), Mapa de distribución de la  precipitación media total anual. Promedio multianual 1981-2010.
+Instituto de Hidrología, Meteorología y Estudios Ambientales (Ideam). (2014), Mapa de distribución de la temperatura  media anual. Promedio multianual 1981-2010. Escala 1:100.000.
+Instituto de Hidrología, Meteorología y Estudios Ambientales (Ideam). (2014), Mapa distribución del brillo solar medio diario anual (horas) promedio multianual 1981-2010, escala 1:100.000.
+Instituto de Hidrología, Meteorología y Estudios Ambientales (Ideam). (2014). Estudio Nacional del Agua – ENA, escala 1:100.000.
+Instituto de Hidrología, Meteorología y Estudios Ambientales (Ideam). (2014). Mapa de cambio de bosque Colombia (Área continental). Escala fina LANDSAT. Periodo 2010 - 2012.
+Instituto de Hidrología, Meteorología y Estudios Ambientales (Ideam). (2014). Mapa de distribución de la humedad relativa media anual (%) escala 1:100.000.
+Instituto de Hidrología, Meteorología y Estudios Ambientales (Ideam). (2014). Mapa de excesos medios anuales multianuales  de Colombia, Promedio multianual 1981-2010
+Instituto de Hidrología, Meteorología y Estudios Ambientales (Ideam). (2014). Mapa nacional de cobertura de la tierra, imágenes 2010-2012, escala 1:100.000.
+Instituto de Hidrología, Meteorología y Estudios Ambientales (Ideam). (2015). Mapa nacional de ecosistemas escala 1:100.000. 
+Instituto de Hidrología, Meteorología y Estudios Ambientales (Ideam). (2015). Zonificación de degradación de suelos por erosión. Área continental de Colombia, escala 1:100.000, línea base 2010-2011.
+Instituto de Hidrología, Meteorología y Estudios Ambientales (Ideam). (2016), Zonas de reserva campesina. Conflictos de uso del territorio colombiano.
+Instituto de Hidrología, Meteorología y Estudios Ambientales (Ideam). (2016). Mapa de Bosque No Bosque Colombia- Área Continental (Escala Fina LANDSAT) año 2010, versión 5. 
+Instituto de Hidrología, Meteorología y Estudios Ambientales (Ideam). (2016). Mapa de Cambio de Bosque Colombia- Área Continental (Escala Fina LANDSAT) Periodo 2010 – 2015.
+Instituto Geográfico Agustín Codazzi (IGAC). (2012). Cartografía básica, escala 1:100.000.
+Instituto Geográfico Agustín Codazzi (IGAC). (2012). Drenaje doble construido a partir de Cartografía básica, escala 1:100.000.
+Instituto Geográfico Agustín Codazzi (IGAC). (2014). Base predial registros 1 y 2, predios con destino agropecuario, vigencia 2014.
+Instituto Geográfico Agustín Codazzi (IGAC). (2014). Mapa de correlación nacional de suelos, escala 1:100.000.
+Instituto Geográfico Agustín Codazzi (IGAC). (2014). Modelo digital de terreno, resolución espacial 90 m.
+Instituto Nacional de Medicina Legal y Ciencias Forenses. (2015). Forensis: datos para la vida.
+ISRIC (2015). SoildGrids: datos de suelos.
+Ministerio de Agricultura y Desarrollo Rural (MADR). (2015). Créditos otorgados al sector palmicultor 2010-2014. Dirección de Cadenas Agrícolas y Forestales.
+Ministerio de Agricultura y Desarrollo Rural (MADR). (2015). Entidades prestadoras del servicio de asistencia técnica agropecuaria. (Epsagro). Dirección de Innovación, Desarrollo Tecnológico y Protección Sanitaria.
+Ministerio de Agricultura y Desarrollo Rural (MADR). (2015). Evaluaciones agropecuarias municipales: área establecida en palma de aceite hasta el año 2014. Oficina Asesora de Planeación y Prospectiva.
+Ministerio de Agricultura y Desarrollo Rural (MADR). (2015). Incentivos a la capitalización rural otorgados al sector palmicultor 2010-2014. Dirección de Financiamiento y Riesgos Agropecuarios.
+Ministerio de Ambiente y Desarrollo Sostenible (MADS).  (2014-2017). Complejos de páramos delimitados. 
+Ministerio de Ambiente y Desarrollo Sostenible (MADS).  (2017). Resolución 2247. Por medio de la cual se precisa el límite de la reserva forestal protectora nacional del Río Meléndez.
+Ministerio de Ambiente y Desarrollo Sostenible (MADS). (2014). Mapa de reservas de la biósfera: Ciénaga Grande de Santa Marta, cinturón andino, Seaflower, El Tuparro y Sierra Nevada de Santa Marta.
+Ministerio de Ambiente y Desarrollo Sostenible (MADS). (2015). Resoluciones 1814 y 1628. Zonas de protección y desarrollo de los recursos naturales renovables y del medio ambiente. Mapa de otras categorías Sinap.
+Ministerio de Ambiente y Desarrollo Sostenible (MADS). (2016). Mapa de reservas forestales nacionales de ley 2.ª, escala 1:100.000.
+Ministerio de Ambiente y Desarrollo Sostenible (MADS). (2016). Mapa de sustracciones de reservas forestales nacionales de ley 2.ª, escala 1:100.000.
+Ministerio de Ambiente y Desarrollo Sostenible (MADS). (2017). Sitios RAMSAR.
+Ministerio de Ambiente y Desarrollo Sostenible (MADS). (2018). Mapa de reservas forestales nacionales de ley 2ª, y mapa de sustracciones a las reservas forestales de la ley 2ª de 1959, escala 1:100.000. 
+Ministerio de Ambiente, Vivienda y Desarrollo Territorial (MAVDT). (2007). Carga de combustible de las coberturas vegetales de Colombia, escala 1:500.000. 
+Ministerio de Cultura. (2014). Paisaje cultural cafetero.
+Ministerio de Educación Nacional (MEN). (2015). Sistema Integrado de Matrícula (Simat). Matrículas oficiales y no oficiales, año 2014. Sistema Nacional de Información de la Educación Superior (Snies) a junio de 2015.
+Ministerios de Transporte. (2014). Mapa de tramos fluviales navegables. Mapa de vías 4G.
+Parques Nacionales Naturales de Colombia. (PNN). (2015). Mapa de otras categorías Sinap. Distritos de manejo integrado. Distritos de conservación de suelos. Áreas de recreación. Parques naturales regionales y reservas forestales protectoras.
+Parques Nacionales Naturales de Colombia. (PNN). (2017). Categorías regionales del Runap V.1.
+Parques Nacionales Naturales de Colombia. (PNN). (2017). Límite de los parques nacionales naturales de Colombia. 
+Parques Nacionales Naturales de Colombia. (PNN). (2017). Reservas naturales de la sociedad civil. Versión 1.
+SELVA. (2012). Mapa de patrones de riqueza y áreas críticas para aves migratorias con afinidad a hábitats abiertos, acuáticos y de bosque en periodos estacionario y migratorio.
+Servicio Geológico Colombiano (SGC). (2010). Mapa nacional de amenaza relativa por movimiento en masa a escala 1:500.000.
+Servicio Nacional de Aprendizaje (SENA). (2014). Regionales y centros de formación.
+Superintendencia Financiera de Colombia (2014). Número de oficinas y empleados por departamento y municipio: bancos.
+Unidad Administrativa Especial del Sistema de Parques Nacionales Naturales (UAESPNN) (2018), Límite de las otras categorías reconocidas por el SINAP, V2. 
+Unidad Administrativa Especial del Sistema de Parques Nacionales Naturales (UAESPNN) (2018), Límite de los Parques Nacionales Naturales de Colombia, V1. 
+Unidad de Planeación Minero Energética (UPME). (2015). Cobertura de energía eléctrica a 2013
+Unidad de Planificación Rural Agropecuaria (UPRA). (2018). Áreas que probablemente presentan agricultura familiar.
+Unidad de Planificación Rural Agropecuaria (UPRA). (2018). Identificación general de la frontera agrícola en Colombia, a escala 1: 100.000.
+Unidad para la Atención y Reparación Integral a las Víctimas. (2014). Red nacional de información: desplazamiento forzado.
+Unidad para la Atención y Reparación Integral a las Víctimas. (2014). Red Nacional de Información: interpretación y análisis de las cifras del registro único de víctimas.
+Unidad para la Atención y Reparación Integral a las Víctimas. (2014). Variable de amenazas del índice de riesgo de victimización, 2005-2013.</gco:CharacterString>
+      </gmd:credit>
+      <gmd:status>
+        <gmd:MD_ProgressCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_ProgressCode" codeListValue="completed" />
+      </gmd:status>
+      <gmd:pointOfContact>
+        <gmd:CI_ResponsibleParty>
+          <gmd:individualName>
+            <gco:CharacterString>Unidad de Planificación Rural Agropecuaria - UPRA</gco:CharacterString>
+          </gmd:individualName>
+          <gmd:organisationName>
+            <gco:CharacterString>Unidad de Planificación Rural Agropecuaria - UPRA</gco:CharacterString>
+          </gmd:organisationName>
+          <gmd:contactInfo>
+            <gmd:CI_Contact>
+              <gmd:phone>
+                <gmd:CI_Telephone>
+                  <gmd:voice>
+                    <gco:CharacterString>(571) 552 9820 - 245 7307</gco:CharacterString>
+                  </gmd:voice>
+                </gmd:CI_Telephone>
+              </gmd:phone>
+              <gmd:address>
+                <gmd:CI_Address>
+                  <gmd:deliveryPoint>
+                    <gco:CharacterString>Calle 28 No.13-22 Torre C, piso 3. Edificio Palma Real.</gco:CharacterString>
+                  </gmd:deliveryPoint>
+                  <gmd:city>
+                    <gco:CharacterString>Bogotá D.C.</gco:CharacterString>
+                  </gmd:city>
+                  <gmd:administrativeArea>
+                    <gco:CharacterString>Bogotá D.C.</gco:CharacterString>
+                  </gmd:administrativeArea>
+                  <gmd:postalCode>
+                    <gco:CharacterString>110311</gco:CharacterString>
+                  </gmd:postalCode>
+                  <gmd:country>
+                    <gmd:Country codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#Country" codeSpace="ISO3166-1" />
+                  </gmd:country>
+                  <gmd:electronicMailAddress>
+                    <gco:CharacterString>atencionalusuario@upra.gov.co</gco:CharacterString>
+                  </gmd:electronicMailAddress>
+                </gmd:CI_Address>
+              </gmd:address>
+              <gmd:hoursOfService>
+                <gco:CharacterString>8:00 a.m. - 5:00 p.m.</gco:CharacterString>
+              </gmd:hoursOfService>
+            </gmd:CI_Contact>
+          </gmd:contactInfo>
+          <gmd:role>
+            <gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_RoleCode" codeListValue="author" codeSpace="ISOTC211/19115" />
+          </gmd:role>
+        </gmd:CI_ResponsibleParty>
+      </gmd:pointOfContact>
+      <gmd:pointOfContact>
+        <gmd:CI_ResponsibleParty>
+          <gmd:individualName>
+            <gco:CharacterString>Cenipalma</gco:CharacterString>
+          </gmd:individualName>
+          <gmd:organisationName>
+            <gco:CharacterString>Cenipalma</gco:CharacterString>
+          </gmd:organisationName>
+          <gmd:role>
+            <gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_RoleCode" codeListValue="author" />
+          </gmd:role>
+        </gmd:CI_ResponsibleParty>
+      </gmd:pointOfContact>
+      <gmd:pointOfContact>
+        <gmd:CI_ResponsibleParty>
+          <gmd:individualName>
+            <gco:CharacterString>Fedepalma</gco:CharacterString>
+          </gmd:individualName>
+          <gmd:organisationName>
+            <gco:CharacterString>Fedepalma</gco:CharacterString>
+          </gmd:organisationName>
+          <gmd:contactInfo>
+            <gmd:CI_Contact>
+              <gmd:address>
+                <gmd:CI_Address>
+                  <gmd:electronicMailAddress>
+                    <gco:CharacterString>info@fedepalma.org</gco:CharacterString>
+                  </gmd:electronicMailAddress>
+                </gmd:CI_Address>
+              </gmd:address>
+            </gmd:CI_Contact>
+          </gmd:contactInfo>
+          <gmd:role>
+            <gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_RoleCode" codeListValue="author" />
+          </gmd:role>
+        </gmd:CI_ResponsibleParty>
+      </gmd:pointOfContact>
+      <gmd:pointOfContact>
+        <gmd:CI_ResponsibleParty>
+          <gmd:individualName>
+            <gco:CharacterString>Unidad de Planificación Rural</gco:CharacterString>
+          </gmd:individualName>
+          <gmd:organisationName>
+            <gco:CharacterString>Unidad de Planificación Rural</gco:CharacterString>
+          </gmd:organisationName>
+          <gmd:contactInfo>
+            <gmd:CI_Contact>
+              <gmd:address>
+                <gmd:CI_Address>
+                  <gmd:electronicMailAddress>
+                    <gco:CharacterString>atencionalusuario@upra.gov.co</gco:CharacterString>
+                  </gmd:electronicMailAddress>
+                </gmd:CI_Address>
+              </gmd:address>
+            </gmd:CI_Contact>
+          </gmd:contactInfo>
+          <gmd:role>
+            <gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact" />
+          </gmd:role>
+        </gmd:CI_ResponsibleParty>
+      </gmd:pointOfContact>
+      <gmd:resourceMaintenance>
+        <gmd:MD_MaintenanceInformation>
+          <gmd:maintenanceAndUpdateFrequency>
+            <gmd:MD_MaintenanceFrequencyCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_MaintenanceFrequencyCode" codeListValue="unknown" codeSpace="ISOTC211/19115" />
+          </gmd:maintenanceAndUpdateFrequency>
+        </gmd:MD_MaintenanceInformation>
+      </gmd:resourceMaintenance>
+      <gmd:graphicOverview>
+        <gmd:MD_BrowseGraphic>
+          <gmd:fileName>
+            <gco:CharacterString>https://catalogometadatos.upra.gov.co:8443/uprageonet/srv/api/records/e163c712-193e-4cb8-8dfa-567055ad7ca6/attachments/Palma_Agosto2018.jpg</gco:CharacterString>
+          </gmd:fileName>
+          <gmd:fileDescription>
+            <gco:CharacterString>Palma_Agosto2018.jpg</gco:CharacterString>
+          </gmd:fileDescription>
+        </gmd:MD_BrowseGraphic>
+      </gmd:graphicOverview>
+      <gmd:descriptiveKeywords>
+        <gmd:MD_Keywords>
+          <gmd:keyword>
+            <gco:CharacterString>Zonificación</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>aptitud</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>agrícola</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>planificación</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>productividad</gco:CharacterString>
+          </gmd:keyword>
+        </gmd:MD_Keywords>
+      </gmd:descriptiveKeywords>
+      <gmd:resourceConstraints>
+        <gmd:MD_Constraints>
+          <gmd:useLimitation>
+            <gco:CharacterString>De acuerdo con el análisis jurídico realizado por la entidad, este producto es público para cualquier usuario y no posee información clasificada o reservada, permitiendo su uso sin ir en contravía de la normatividad legal vigente, lo anterior en virtud de lo dispuesto en la Ley 1712 de 2014. Para su uso se debe citar la fuente UPRA, esto en observancia de la normatividad de Derechos de Autor.</gco:CharacterString>
+          </gmd:useLimitation>
+        </gmd:MD_Constraints>
+      </gmd:resourceConstraints>
+      <gmd:spatialRepresentationType>
+        <gmd:MD_SpatialRepresentationTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_SpatialRepresentationTypeCode" codeListValue="vector" codeSpace="ISOTC211/19115" />
+      </gmd:spatialRepresentationType>
+      <gmd:language>
+        <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="eng" codeSpace="ISO639-2" />
+      </gmd:language>
+      <gmd:characterSet>
+        <gmd:MD_CharacterSetCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8" codeSpace="ISOTC211/19115" />
+      </gmd:characterSet>
+      <gmd:topicCategory>
+        <gmd:MD_TopicCategoryCode>farming</gmd:MD_TopicCategoryCode>
+      </gmd:topicCategory>
+      <gmd:environmentDescription>
+        <gco:CharacterString>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.3.0.4322</gco:CharacterString>
+      </gmd:environmentDescription>
+      <gmd:extent>
+        <gmd:EX_Extent>
+          <gmd:geographicElement>
+            <gmd:EX_GeographicBoundingBox>
+              <gmd:extentTypeCode>
+                <gco:Boolean>true</gco:Boolean>
+              </gmd:extentTypeCode>
+              <gmd:westBoundLongitude>
+                <gco:Decimal>-81.762966</gco:Decimal>
+              </gmd:westBoundLongitude>
+              <gmd:eastBoundLongitude>
+                <gco:Decimal>-66.647336</gco:Decimal>
+              </gmd:eastBoundLongitude>
+              <gmd:southBoundLatitude>
+                <gco:Decimal>-4.23896</gco:Decimal>
+              </gmd:southBoundLatitude>
+              <gmd:northBoundLatitude>
+                <gco:Decimal>13.50069</gco:Decimal>
+              </gmd:northBoundLatitude>
+            </gmd:EX_GeographicBoundingBox>
+          </gmd:geographicElement>
+        </gmd:EX_Extent>
+      </gmd:extent>
+    </gmd:MD_DataIdentification>
+  </gmd:identificationInfo>
+  <gmd:distributionInfo xmlns:che="http://www.geocat.ch/2008/che">
+    <gmd:MD_Distribution>
+      <gmd:distributionFormat>
+        <gmd:MD_Format>
+          <gmd:name>
+            <gco:CharacterString>ESRI Shapefile</gco:CharacterString>
+          </gmd:name>
+          <gmd:fileDecompressionTechnique>
+            <gco:CharacterString>ArcGis - ArcMap</gco:CharacterString>
+          </gmd:fileDecompressionTechnique>
+        </gmd:MD_Format>
+      </gmd:distributionFormat>
+      <gmd:distributionFormat>
+        <gmd:MD_Format>
+          <gmd:name>
+            <gco:CharacterString>Clase de entidad SDE</gco:CharacterString>
+          </gmd:name>
+        </gmd:MD_Format>
+      </gmd:distributionFormat>
+      <gmd:transferOptions>
+        <gmd:MD_DigitalTransferOptions>
+          <gmd:onLine>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>http://sipra.upra.gov.co</gmd:URL>
+              </gmd:linkage>
+              <gmd:protocol>
+                <gco:CharacterString>WWW:LINK-1.0-http--link</gco:CharacterString>
+              </gmd:protocol>
+              <gmd:name>
+                <gco:CharacterString>Sistema de Información para la Planificación Rural y Agropecuaria - SIPRA</gco:CharacterString>
+              </gmd:name>
+              <gmd:description>
+                <gco:CharacterString>El SIPRA dispone de los productos y análisis de información que genera la UPRA, como soporte a la planificación rural agropecuaria.</gco:CharacterString>
+              </gmd:description>
+              <gmd:function>
+                <gmd:CI_OnLineFunctionCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="download" />
+              </gmd:function>
+            </gmd:CI_OnlineResource>
+          </gmd:onLine>
+          <gmd:onLine>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>https://www.datos.gov.co/Agricultura-y-Desarrollo-Rural/Zonificaci-n-De-Aptitud-Para-El-Cultivo-Comercial-/ai3m-6ybp</gmd:URL>
+              </gmd:linkage>
+              <gmd:protocol>
+                <gco:CharacterString>WWW:LINK-1.0-http--link</gco:CharacterString>
+              </gmd:protocol>
+              <gmd:name>
+                <gco:CharacterString>Portal de datos abiertos del estado Colombiano</gco:CharacterString>
+              </gmd:name>
+              <gmd:description>
+                <gco:CharacterString>Plataforma digital que sirve para almacenar, compartir, conectar y visualizar bases de datos con información pública dispuesta en formatos que permiten su uso y reutilización bajo licencia abierta y sin restricciones legales para su aprovechamiento. En Colombia, la Ley 1712 de 2014 sobre Transparencia y Acceso a la Información Pública enmarca esta plataforma.</gco:CharacterString>
+              </gmd:description>
+              <gmd:function>
+                <gmd:CI_OnLineFunctionCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="download" />
+              </gmd:function>
+            </gmd:CI_OnlineResource>
+          </gmd:onLine>
+          <gmd:onLine>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>http://geoservicios.upra.gov.co/arcgis/rest/services/aptitud_uso_suelo/aptitud_palma_2018/MapServer</gmd:URL>
+              </gmd:linkage>
+              <gmd:protocol>
+                <gco:CharacterString>OGC:WMS</gco:CharacterString>
+              </gmd:protocol>
+              <gmd:name>
+                <gco:CharacterString>Geoservicio de la Aptitud de Palma de Aceite 2018</gco:CharacterString>
+              </gmd:name>
+              <gmd:function>
+                <gmd:CI_OnLineFunctionCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="information" />
+              </gmd:function>
+            </gmd:CI_OnlineResource>
+          </gmd:onLine>
+        </gmd:MD_DigitalTransferOptions>
+      </gmd:transferOptions>
+    </gmd:MD_Distribution>
+  </gmd:distributionInfo>
+  <gmd:dataQualityInfo>
+    <gmd:DQ_DataQuality>
+      <gmd:scope>
+        <gmd:DQ_Scope>
+          <gmd:level>
+            <gmd:MD_ScopeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset" codeSpace="ISOTC211/19115" />
+          </gmd:level>
+        </gmd:DQ_Scope>
+      </gmd:scope>
+      <gmd:lineage>
+        <gmd:LI_Lineage>
+          <gmd:statement>
+            <gco:CharacterString>Se revisaron aspectos temáticos, así como aquellos que intervienen en el procesamiento espacial de la información.</gco:CharacterString>
+          </gmd:statement>
+        </gmd:LI_Lineage>
+      </gmd:lineage>
+    </gmd:DQ_DataQuality>
+  </gmd:dataQualityInfo>
+  <gmd:metadataMaintenance>
+    <gmd:MD_MaintenanceInformation>
+      <gmd:maintenanceAndUpdateFrequency>
+        <gmd:MD_MaintenanceFrequencyCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_MaintenanceFrequencyCode" codeListValue="asNeeded" codeSpace="ISOTC211/19115" />
+      </gmd:maintenanceAndUpdateFrequency>
+    </gmd:MD_MaintenanceInformation>
+  </gmd:metadataMaintenance>
+</gmd:MD_Metadata>
